@@ -4,25 +4,60 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /* common */
 
 header{
     height: 80px;
-    background-color: blue;
-}
-
-h1 {
+    background-color: rgb(36, 36, 100);
     color: white;
 }
 
 /* main */
 main {
     height: calc(100vh - 130px);
-    background-color: thistle;
+    overflow-y: scroll;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0px 20px;
+    padding: 20px 0;
+}
+
+.disco {
+    width: calc(100% / 6);
+    min-height: 350px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: tomato;
+}
+
+.disco img {
+    width: 70%;
+}
+
+h4,
+h5 {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 15px;
+    color: gray;
 }
 
 /* footer */
 footer {
     height: 50px;
-    background-color: tomato;
+    background-color: rgb(36, 36, 100);
+    color: white;
 }
