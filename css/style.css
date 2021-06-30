@@ -1,0 +1,28 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* common */
+
+header{
+    height: 80px;
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+}
+
+/* main */
+main {
+    height: calc(100vh - 130px);
+    background-color: thistle;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    background-color: tomato;
+}
